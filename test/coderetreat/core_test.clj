@@ -2,9 +2,5 @@
   (:require [clojure.test :refer :all]
             [coderetreat.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
-
-(deftest board
-  (id (not (nil? (board)))))
+(deftest board-test
+  (is (not (nil? (board)))))
