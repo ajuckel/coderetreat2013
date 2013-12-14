@@ -14,3 +14,5 @@
 (deftest a-day-on-the-empty-board-test
   (is [[0 0 0][0 0 0][0 0 0]] (board [[0 0 0][0 0 0][0 0 0]] 1)))
 
+(deftest get-row-test
+  (is [1 1 1] (get-row 2 [[0 0 0][1 1 1][0 0 0]])))
